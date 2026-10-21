@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <fieldset>
+        <legend><b>Completar</b></legend>
+    <form>
+        <label for="seleccionar_color">Selecciona un color</label>
+        <input type="color" id="seleccionar_color" name="seleccionar_color">
+    </form>
+    <textarea name="texto" rows="5" cols="53" placeholder="Por favor escriba aqui"></textarea>
+</br>
+    <label for="lenguaje"></label>
+    <select id="lenguaje">
+        <option value="java">Java</option>
+        <option value="phyton">Phyton</option>
+        <option value="html">HTML</option>
+        <option value="visual_basic">Visual Basic</option>
+    </select>
+    <br>
+    <label>
+        <input type="checkbox" name="ciclo" value="cicloasir">ASIR</input>
+    </label>
+    <label>
+        <input type="checkbox" name="ciclo" value="ciclodam">DAM</input>
+    </label>
+    <label>
+        <input type="checkbox" name="ciclo" value="ciclodaw">DAW</input>
+    </label>
+    
+    </fieldset>
+    <fieldset>
+        <legend>Rellene las opciones siguientes</legend>
+        <label>Elige una fecha:</label>
+            <input type="date" id="fecha" name="fecha">
+        <br>
+        <label for="selecionar-fichero">Elige un fichero</label>
+            <input type="file" id="selecciona-fichero" name="fichero">
+        <br>
+        <label for="ciclo"></label>
+            <select name="ciclo" id="ciclo" multiple size="4">
+                <option value="smir">SMIR</option>
+                <option value="asir">ASIR</option>
+                <option value="dam">DAM</option>
+                <option value="daw">DAW</option>
+            </select>
+    </fieldset>
+    <h2>Formulario 2</h2>
+    <fieldset>
+        <legend>Rellenar</legend>
+        <label>
+            <input type="radio" name="asignatura" value="asignaturalengua">Lengua</input>
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="asignatura" value="asignaturamatematicas">Matematicas</input>
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="asignatura" value="asignaturahistoria">Historia</input>
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="asignatura" value="asignaturageografia">Geografia</input>
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="checkbox" name="editor" value="editornotepad">Notepad</input>
+        </label>
+        <label>
+            <input type="checkbox" name="editor" value="editoremacs">Emacs</input>      
+        </label>
+        <label>
+            <input type="checkbox" name="editor" value="editorotro">Otro</input>
+        </label>
+        <br>
+        <textarea name="texto" rows="5" cols="59" placeholder="Por favor escriba aqui"></textarea>
+        <br>
+        <label for="procesador"></label>
+    <select id="procesador">
+        <option value="amd">AMD</option>
+        <option value="intel_i5">Intel i5</option>
+        <option value="intel_i7">Intel i7</option>
+    </select>
+    </fieldset>
+    <h2>Formulario 3</h2>
+    <fieldset>
+        <legend>Rellenar</legend>
+        <label>
+            <input type="radio" name="asignatura" value="asignaturageografia">Geografia</input>
+        </label>
+        <label>
+            <input type="radio" name="asignatura" value="asignaturalengua">Lengua</input>
+        </label>
+        <label>
+            <input type="radio" name="asignatura" value="asignaturamatematicas">Matematicas</input>
+        </label>
+        <label>
+            <input type="radio" name="asignatura" value="asignaturahistoria">Historia</input>
+        </label>
+        <br>
+        <label for="hora">Elige una hora</label>
+        <input type="time" id="hora" name="hora">
+        <br>
+        <label>
+            <input type="checkbox" name="idioma" value="idiomaespañol">Español</input>
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="idioma" value="idiomaingles">Ingles</input>
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="idioma" value="idiomaaleman">Aleman</input>
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="idioma" value="idiomafrances">frances</input>
+        </label>
+        <br>
+        <label>Nombre</label>
+            <input type="text"name="nombre">
+        <br>
+        <label>Apellidos</label>
+            <input type="text" name="apellidos">
+        
+    </fieldset>
+</body>
+</html>
