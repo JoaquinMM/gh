@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .imagen1{
+            position:fixed;
+            right:0px;
+            width:200px;
+            height:200px;
+        }
+        .bloque{
+            display:block;
+            border:1px solid red;
+            width:500px;
+            height:500px;
+            position:fixed;
+            margin:0 auto;
+        }
+        .imagen2{
+            width:100px;
+            height:100px;
+        }
+        .interior{
+            position:absolute;
+            top:250px;
+            left:200px;
+        }
+        .imagen3{
+            bottom:0px;
+            left:300px;
+            position:fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagenes centradas</h1>
+    <img src="../historia/img/londres.jpg" class="imagen1"/>
+    <div class="bloque">
+        <div class="interior">
+            <img src="../historia/img/paris.jpg" class="imagen2"/>
+        </div>    
+    </div>
+    <img src="../historia/img/roma.jpg" width="200px" class="imagen3"/>
+    
+</body>
+</html>

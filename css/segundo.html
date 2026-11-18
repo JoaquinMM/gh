@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo de CSS</title>
+    <style>
+    ul.menu > li{
+        color:red;
+        font-size:20px;
+    }
+    h2 + p{
+        color:green;
+    }
+    input[type="text"]{
+        border: 3px solid red;
+    }
+    .parrafoverde{
+        color:green;
+    }
+    .parraforojo::first-letter{
+        color:red;
+        font-size:2.5em;
+        font-weight:bold;
+        color:pink;
+    }
+    .parrafoazul{
+        color:blue;
+    }
+    .parrafoverde:hover{
+        font-weight:bold;
+        font-size:30px;
+        background-image:url(../historia/img/barcelona.jpg);
+        background-size:10%
+    }
+    input:focus{
+        border: 5px red dashed;
+    }
+    tr:nth-child(odd){
+        background-color:yellow;
+    }
+    .bloque{
+        width:40%;
+        height:50%;
+        border:1px solid red;
+    }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li>Primera opcion</li>
+        <ul>
+            <li>Primera subopcion de la primera opcion</li>
+            <li>Segunda subopcion de la primera opcion</li>
+        </ul>
+        <li>Segunda opcion</li>
+    </ul>
+    <p>Esto es mi primer parrafo</p>
+    <h2>Esto es un encabezado de segundo nivel</h2>
+    <p>Este es mi segundo parrafo</p>
+    <p>Mi tercer parrafo</p>
+    
+    <for>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Aqui escribe el nombre" id="nombre"/>
+        <label for="edad">Edad</label>
+        <input type="nombre" step="5" id="edad"/>
+        <input type="submit" value="Enviar"/>
+    </for>
+    <p class="parrafoverde">Parrafo de color verde</p>
+    <p class="parraforojo">Parrafo de color rojo</p>
+    <p class="parrafoazul">Parrafo de color azul</p>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>12</td>
+            <td>12</td>
+            <td>12</td>
+        </tr>
+         <tr>
+            <td>1</td>
+            <td>12</td>
+            <td>12</td>
+            <td>12</td>
+        </tr>
+         <tr>
+            <td>1</td>
+            <td>12</td>
+            <td>12</td>
+            <td>12</td>
+        </tr>
+         <tr>
+            <td>1</td>
+            <td>12</td>
+            <td>12</td>
+            <td>12</td>
+        </tr>
+    </table>
+
+    <div class="bloque">
+        Pruebas css
+    </div>
+    <img src="../historia/img/londres.jpg" style="margin: 0px auto; display: block;">
+    
+</body>
+</html>
